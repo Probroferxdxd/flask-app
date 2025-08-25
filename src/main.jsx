@@ -7,7 +7,7 @@ import "./index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <BrowserRouter basename={"https://probroferxdxd.github.io/flask-app"}>
+        <BrowserRouter basename={"/flask-app"}>
             <AuthProvider>
                 <App />
             </AuthProvider>
