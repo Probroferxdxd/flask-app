@@ -1,9 +1,10 @@
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import { useAuth } from "./context/AuthContext";
+import Home from "./pages/principal-pages/Home.jsx";
+import Login from "./pages/data-pages/Login.jsx";
+import Register from "./pages/data-pages/Register.jsx";
+import Dashboard from "./pages/ui-user-pages/Dashboard.jsx";
+import { useAuth } from "./utils/AuthContext.jsx";
 
 // Ruta protegida
 function PrivateRoute({ children }) {
@@ -20,6 +21,7 @@ function App() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route
           path="/dashboard"
           element={

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
-import { useAuth } from "../context/AuthContext";
-import "../assets/styles/App.scss";
+import { useAuth } from "../../utils/AuthContext.jsx";
+import "../../assets/styles/App.scss";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -29,7 +29,9 @@ export default function Home() {
             </Link>
           </motion.button>
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-            Registrarse
+            <Link to="/register">
+              Registrarse
+            </Link>
           </motion.button>
         </div>
       </motion.div>
