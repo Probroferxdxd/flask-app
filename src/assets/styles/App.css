@@ -88,6 +88,13 @@ body .main-content .login-container .login-form form .login-form-body .login-for
 }
 body .main-content .login-container .login-form form .login-form-body .login-form-input .login-input-container input:focus {
   outline: none;
+  background: #1e2939;
+}
+body .main-content .login-container .login-form form .login-form-body .login-form-input .login-input-container input:active {
+  background: #1e2939;
+}
+body .main-content .login-container .login-form form .login-form-body .login-form-input .login-input-container input:-webkit-autofill {
+  background: #1e2939;
 }
 body .main-content .login-container .login-form form .login-form-footer {
   display: flex;

@@ -91,7 +91,15 @@ body{
                   color: white;
                   &:focus{
                     outline: none;
+                    background: #1e2939;
                   }
+                  &:active{
+                    background: #1e2939;
+                  }
+                  &:-webkit-autofill,{
+                    background: #1e2939;
+                  }
+
                 }
 
               }

@@ -79,16 +79,15 @@ export default function Login() {
             <div
               onClick={() => setRemember(!remember)}
               className={`
-    flex items-center gap-2 mb-4 cursor-pointer select-none
-  `}
+              flex items-center gap-2 mb-4 cursor-pointer select-none`}
             >
               {/* Caja del "checkbox" */}
               <div
                 className={`
-      w-5 h-5 flex items-center justify-center rounded
-      border transition-colors
-      ${remember ? "bg-blue-600 border-blue-600" : "bg-gray-700 border-gray-500"}
-    `}
+                  w-5 h-5 flex items-center justify-center rounded
+                  border transition-colors
+                  ${remember ? "bg-blue-600 border-blue-600" : "bg-gray-700 border-gray-500"}
+                  `}
               >
                 {remember && (
                   <svg
