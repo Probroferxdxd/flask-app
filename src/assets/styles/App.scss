@@ -77,7 +77,14 @@ body{
               }
             }
           }
-
+          .login-form-header{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .icon-item{
+              font-size: 2.5rem;
+            }
+          }
           .login-form-body{
             width: 100%;
             display: flex;
@@ -122,6 +129,86 @@ body{
         background-position: center;
         background-size: cover;
         }
+    }
+    .register-container {
+      width: 100%;
+      height: 90vh;
+      .register-form {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 20px;
+        form {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          justify-content: center;
+          align-items: flex-start;
+
+          .register-button-section {
+            display: flex;
+            width: 100%;
+            button {
+              padding: 10px;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+
+          .register-form-header{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .icon-item{
+              font-size: 2.5rem;
+            }
+          }
+
+          .register-form-body {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .register-form-input {
+              .register-input-container {
+                padding: 10px;
+                border-radius: 5px;
+                input {
+                  color: white;
+                  &:focus {
+                    outline: none;
+                    background: #1e2939;
+                  }
+                  &:active {
+                    background: #1e2939;
+                  }
+                  &:-webkit-autofill {
+                    background: #1e2939;
+                  }
+                }
+              }
+            }
+          }
+
+          .register-form-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+          }
+        }
+      }
+      .register-image {
+        width: 60%;
+        height: 90vh;
+        background-image: url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
     }
   }
 }

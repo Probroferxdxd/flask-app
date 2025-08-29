@@ -43,7 +43,7 @@ export default function Login() {
       <div className={"login-form"}>
         <form onSubmit={handleLogin} className="p-6 rounded-lg w-80 login-form">
           <div className={"login-form-header"}>
-            <span>
+            <span className={"icon-item"}>
               <i className="fa-solid fa-flask"></i>
             </span>
             <h2 className="text-2xl font-bold mb-4">Iniciar Sesión</h2>
@@ -86,7 +86,7 @@ export default function Login() {
                 className={`
                   w-5 h-5 flex items-center justify-center rounded
                   border transition-colors
-                  ${remember ? "bg-blue-600 border-blue-600" : "bg-gray-700 border-gray-500"}
+                  ${remember ? "bg-blue-600 border-blue-600" : "bg-gray-800 border-gray-600"}
                   `}
               >
                 {remember && (

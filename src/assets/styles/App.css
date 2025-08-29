@@ -73,6 +73,14 @@ body .main-content .login-container .login-form form .login-button-section butto
 body .main-content .login-container .login-form form .login-button-section button:hover {
   cursor: pointer;
 }
+body .main-content .login-container .login-form form .login-form-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .main-content .login-container .login-form form .login-form-header .icon-item {
+  font-size: 2.5rem;
+}
 body .main-content .login-container .login-form form .login-form-body {
   width: 100%;
   display: flex;
@@ -106,6 +114,80 @@ body .main-content .login-container .login-image {
   width: 60%;
   height: 90vh;
   background-image: url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 870w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1170w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1470w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1740w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1770w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2070w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2340w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2370w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2670w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2940w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2970w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3270w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3540w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3570w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3870w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=4140&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4140w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=4170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4170w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=4470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4470w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=4740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4740w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=4770&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4770w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=5070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 5070w, https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=5101&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 5101w");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body .main-content .register-container {
+  width: 100%;
+  height: 90vh;
+}
+body .main-content .register-container .register-form {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+body .main-content .register-container .register-form form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+body .main-content .register-container .register-form form .register-button-section {
+  display: flex;
+  width: 100%;
+}
+body .main-content .register-container .register-form form .register-button-section button {
+  padding: 10px;
+}
+body .main-content .register-container .register-form form .register-button-section button:hover {
+  cursor: pointer;
+}
+body .main-content .register-container .register-form form .register-form-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .main-content .register-container .register-form form .register-form-header .icon-item {
+  font-size: 2.5rem;
+}
+body .main-content .register-container .register-form form .register-form-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body .main-content .register-container .register-form form .register-form-body .register-form-input .register-input-container {
+  padding: 10px;
+  border-radius: 5px;
+}
+body .main-content .register-container .register-form form .register-form-body .register-form-input .register-input-container input {
+  color: white;
+}
+body .main-content .register-container .register-form form .register-form-body .register-form-input .register-input-container input:focus {
+  outline: none;
+  background: #1e2939;
+}
+body .main-content .register-container .register-form form .register-form-body .register-form-input .register-input-container input:active {
+  background: #1e2939;
+}
+body .main-content .register-container .register-form form .register-form-body .register-form-input .register-input-container input:-webkit-autofill {
+  background: #1e2939;
+}
+body .main-content .register-container .register-form form .register-form-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+body .main-content .register-container .register-image {
+  width: 60%;
+  height: 90vh;
+  background-image: url("https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
